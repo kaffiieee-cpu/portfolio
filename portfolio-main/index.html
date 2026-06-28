@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Ikhsan — AI Product Builder & Business System Architect</title>
+  <meta name="description"
+    content="Ikhsan builds AI-powered business systems that simplify operations. Founder of OPET — a business operating system for service businesses. Turning operational chaos into elegant digital systems.">
+  <meta name="keywords"
+    content="AI Product Builder, Business System Builder, OPET, automation, TypeScript, Express, Prisma, PostgreSQL, business digitalization, AI engineering">
+  <meta name="author" content="Ikhsanuddien Kaffie — Ikhsan">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ikhsanuddienkaffie.netlify.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ikhsan — AI Product Builder & Business System Architect">
+  <meta property="og:description"
+    content="Building AI-powered business systems that simplify operations. Founder of OPET — business OS for service businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ikhsanuddienkaffie.netlify.app/">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ikhsan — AI Product Builder & Business System Architect">
+  <meta name="twitter:description"
+    content="Building AI-powered business systems that simplify operations. Founder of OPET.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-size='55' font-weight='800' text-anchor='middle' fill='white' font-family='system-ui'>I</text></svg>">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body style="overflow: hidden;">
+
+  <!-- Loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-content">
+      <div class="loader-logo">I</div>
+      <div class="loader-bar">
+        <div class="loader-bar-inner"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Mobile Overlay -->
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand" aria-label="Ikhsan Home">
+        <div class="brand-logo">I</div>
+        <span>Ikhsan</span>
+      </a>
+
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact" class="nav-cta">Let's Talk →</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero section" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-layout">
+
+        <!-- Left: Text -->
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="status-dot"></span>
+            <span>Open to Opportunities</span>
+          </div>
+
+          <h1 class="hero-greeting reveal reveal-delay-1">
+            Hi, I'm Ikhsan.
+          </h1>
+
+          <div class="hero-roles reveal reveal-delay-2">
+            <span class="role-static">I build</span>
+            <span class="role-typed" id="role-typed" aria-live="polite">AI-Powered Systems</span>
+          </div>
+
+          <p class="hero-description reveal reveal-delay-3">
+            I design and build <strong>AI-powered business systems</strong> that simplify operations —
+            turning operational chaos into elegant, automated digital workflows that actually work.
+          </p>
+
+          <div class="hero-actions reveal reveal-delay-4">
+            <a href="#projects" class="btn-primary" id="hero-view-projects">
+              <span>View Projects</span>
+              <span>→</span>
+            </a>
+            <a href="#contact" class="btn-secondary" id="hero-contact">
+              <span>Contact</span>
+            </a>
+            <a href="resume.pdf" class="btn-outline" id="hero-resume" download>
+              <span>↓</span>
+              <span>Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-stats reveal reveal-delay-5">
+            <div class="stat-item">
+              <div class="stat-number" data-count="10" data-suffix="+">0+</div>
+              <div class="stat-label">Systems Built</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="50" data-suffix="+">0+</div>
+              <div class="stat-label">Features Shipped</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="3" data-suffix="">0</div>
+              <div class="stat-label">Active Projects</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Portrait -->
+        <div class="hero-portrait-wrap reveal reveal-delay-2">
+          <div class="hero-portrait-ring">
+            <img
+              src="portrait.jpg"
+              alt="Ikhsan — AI Product Builder"
+              class="hero-portrait"
+              width="360"
+              height="400"
+              loading="eager">
+            <div class="hero-portrait-badge">
+              <span class="badge-dot"></span>
+              <span>Building OPET</span>
+            </div>
+            <div class="hero-portrait-tag">Founder · Builder</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> About</div>
+      <h2 class="section-title reveal reveal-delay-1">Not just code.<br><span class="text-gradient">Operational intelligence.</span></h2>
+
+      <div class="about-grid">
+        <!-- Left: Text -->
+        <div class="about-text">
+          <p class="reveal reveal-delay-2">
+            I started on a warehouse floor — managing inventory, tracking shipments, and watching inefficiency compound every day.
+            That experience gave me something most engineers lack: <strong>deep operational intuition</strong>.
+          </p>
+          <p class="reveal reveal-delay-3">
+            I don't build software for the sake of building it. I identify where businesses bleed time and money,
+            then design <strong>systems that fix the root problem</strong> — using AI, automation, and clean architecture
+            to create leverage that scales.
+          </p>
+          <p class="reveal reveal-delay-4">
+            Today, I'm the founder and architect of <strong>OPET</strong> — a full-stack business operating system
+            for service businesses, built with TypeScript, Express, Prisma, and PostgreSQL, augmented with an embedded AI assistant.
+          </p>
+        </div>
+
+        <!-- Right: Value Cards -->
+        <div class="about-values">
+          <div class="value-card reveal reveal-delay-2">
+            <div class="value-icon">🧠</div>
+            <h4>Operational First</h4>
+            <p>Every system I build starts with understanding how a business actually runs — not how it's supposed to run on paper.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-3">
+            <div class="value-icon">⚡</div>
+            <h4>AI-Augmented Execution</h4>
+            <p>I use AI not as a gimmick, but as a force multiplier — embedding it into workflows to reduce manual effort by orders of magnitude.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-4">
+            <div class="value-icon">🎯</div>
+            <h4>Builder Mindset</h4>
+            <p>I architect, engineer, and ship. From database schema to UI — I own the full stack and take accountability for every decision.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PROJECTS SECTION
+       ============================================ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> Projects</div>
+      <h2 class="section-title reveal reveal-delay-1">Systems I've built<br><span class="text-gradient">& currently shipping</span></h2>
+      <p class="section-subtitle reveal reveal-delay-2">Real products solving real operational problems.</p>
+
+      <div class="projects-stack">
+
+        <!-- ===== OPET — Flagship ===== -->
+        <article class="project-flagship reveal reveal-delay-2" id="opet">
+          <div class="flagship-body">
+            <div class="project-top">
+              <div>
+                <span class="project-status-badge status-dev">
+                  <span class="status-dot-sm"></span>
+                  In Development
+                </span>
+              </div>
+              <div class="project-roles">
+                <span class="role-chip">Founder</span>
+                <span class="role-chip">Product Architect</span>
+                <span class="role-chip">AI-Assisted Engineer</span>
+              </div>
+            </div>
+
+            <h3 class="flagship-title">OPET</h3>
+            <p class="flagship-subtitle">Business Operating System for Service Businesses</p>
+            <p class="flagship-desc">
+              OPET is a full-stack business OS designed for service businesses — managing everything from bookings and
+              customers to employees, payments, POS, analytics, and AI-assisted operations. Multi-branch ready with
+              Role-Based Access Control and an embedded AI assistant that understands your business context.
+            </p>
+
+            <!-- Tech Stack -->
+            <div class="project-tech">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">Prisma</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+
+            <div class="flagship-divider"></div>
+            <p class="features-label">Core Modules</p>
+            <div class="features-grid">
+              <div class="feature-item"><span class="feature-check">✓</span> Booking</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Customer Management</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Employee Management</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Payment Processing</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Point of Sale</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Dashboard</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Analytics</div>
+              <div class="feature-item"><span class="feature-check">✓</span> RBAC</div>
+              <div class="feature-item"><span class="feature-check">✓</span> Multi Branch</div>
+              <div class="feature-item"><span class="feature-check">✓</span> AI Assistant</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== Two Standard Cards ===== -->
+        <div class="projects-row">
+
+          <!-- Workbase Khansa -->
+          <article class="project-card reveal reveal-delay-3" id="workbase-khansa">
+            <div class="project-card-icon icon-green">📊</div>
+            <div class="project-top" style="margin-bottom:0.75rem;">
+              <span class="project-status-badge status-live">
+                <span class="status-dot-sm"></span>
+                Live
+              </span>
+            </div>
+            <h3>Workbase Khansa</h3>
+            <p class="project-card-desc">
+              Business digitalization project for a distribution company — built entirely on Google Sheets.
+              Covers full operations from multi-warehouse management to P&amp;L reporting, all in one integrated workbook.
+            </p>
+            <div class="project-card-features">
+              <span class="card-feature-tag">Spreadsheet Automation</span>
+              <span class="card-feature-tag">Inventory Management</span>
+              <span class="card-feature-tag">Multi Warehouse</span>
+              <span class="card-feature-tag">Dashboard</span>
+              <span class="card-feature-tag">P&amp;L Report</span>
+            </div>
+          </article>
+
+          <!-- CANDELSTICK -->
+          <article class="project-card reveal reveal-delay-4" id="candelstick">
+            <div class="project-card-icon icon-purple">🎨</div>
+            <div class="project-top" style="margin-bottom:0.75rem;">
+              <span class="project-status-badge status-growing">
+                <span class="status-dot-sm"></span>
+                Growing
+              </span>
+            </div>
+            <h3>CANDELSTICK</h3>
+            <p class="project-card-desc">
+              A sticker brand on the marketplace, built using AI-assisted workflows from end to end —
+              product design, listing creation, SEO optimization, and demand-driven production.
+            </p>
+            <div class="project-card-features">
+              <span class="card-feature-tag">Marketplace Optimization</span>
+              <span class="card-feature-tag">AI Prompt Engineering</span>
+              <span class="card-feature-tag">SEO Listing</span>
+              <span class="card-feature-tag">Brand Building</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CURRENTLY BUILDING SECTION
+       ============================================ -->
+  <section class="section section-alt currently-building" id="building">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> Currently Building</div>
+      <h2 class="section-title reveal reveal-delay-1">OPET is live<br><span class="text-gradient">in active development</span></h2>
+      <p class="section-subtitle reveal reveal-delay-2">Module-by-module progress toward a complete business OS.</p>
+
+      <div class="building-inner reveal reveal-delay-3">
+        <div class="building-header">
+          <div class="building-title-wrap">
+            <h3>OPET — Business Operating System</h3>
+            <p>Full-stack business OS · TypeScript · Express · PostgreSQL</p>
+          </div>
+          <div class="building-progress-overview">
+            <div class="overall-pct" id="overall-pct">0%</div>
+            <div class="overall-label">Overall Progress</div>
+            <div class="overall-bar">
+              <div class="overall-bar-fill" id="overall-bar-fill" data-width="62"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="building-modules">
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">📅</span> Booking System</div>
+              <span class="module-pct">85%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-blue" data-width="85"></div>
+            </div>
+            <div class="module-status">Core logic complete · UI polishing</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">👥</span> Customer Management</div>
+              <span class="module-pct">90%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-green" data-width="90"></div>
+            </div>
+            <div class="module-status">CRUD complete · Search & filter done</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">💳</span> Payment Processing</div>
+              <span class="module-pct">70%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-blue" data-width="70"></div>
+            </div>
+            <div class="module-status">Gateway integration in progress</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">🛒</span> Point of Sale</div>
+              <span class="module-pct">60%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-purple" data-width="60"></div>
+            </div>
+            <div class="module-status">Cart & transactions · Receipt pending</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">📊</span> Analytics Dashboard</div>
+              <span class="module-pct">45%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-amber" data-width="45"></div>
+            </div>
+            <div class="module-status">Charts & KPIs · Advanced filters pending</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">🤖</span> AI Assistant</div>
+              <span class="module-pct">30%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-purple" data-width="30"></div>
+            </div>
+            <div class="module-status">Architecture defined · Training in progress</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">🔐</span> RBAC</div>
+              <span class="module-pct">80%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-green" data-width="80"></div>
+            </div>
+            <div class="module-status">Role engine done · Permission UI polishing</div>
+          </div>
+
+          <div class="module-item">
+            <div class="module-header">
+              <div class="module-name"><span class="module-icon">🏢</span> Multi Branch</div>
+              <span class="module-pct">55%</span>
+            </div>
+            <div class="module-bar-track">
+              <div class="module-bar-fill bar-blue" data-width="55"></div>
+            </div>
+            <div class="module-status">Schema designed · Branch switching active</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SKILLS SECTION
+       ============================================ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> Skills</div>
+      <h2 class="section-title reveal reveal-delay-1">Tools of the<br><span class="text-gradient">craft</span></h2>
+      <p class="section-subtitle reveal reveal-delay-2">A blend of business intuition, AI engineering, and full-stack capability — continuously sharpened.</p>
+
+      <div class="skills-layout reveal reveal-delay-3">
+
+        <!-- Left Column -->
+        <div class="skills-col">
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🧠</span> Business Analysis</span>
+              <span class="skill-pct">92%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-blue" data-width="92"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🤖</span> AI Engineering</span>
+              <span class="skill-pct">78%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-blue" data-width="78"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">✍️</span> Prompt Engineering</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-purple" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">⚡</span> TypeScript</span>
+              <span class="skill-pct">72%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-blue" data-width="72"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🔧</span> Express.js</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-green" data-width="75"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🗂️</span> Git</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-purple" data-width="80"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="skills-col">
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🛢️</span> Prisma</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-blue" data-width="70"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🐘</span> PostgreSQL</span>
+              <span class="skill-pct">68%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-green" data-width="68"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🌐</span> HTML</span>
+              <span class="skill-pct">88%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-purple" data-width="88"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">🎨</span> CSS</span>
+              <span class="skill-pct">84%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-blue" data-width="84"></div>
+            </div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name"><span class="skill-icon">💛</span> JavaScript</span>
+              <span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill fill-green" data-width="82"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       JOURNEY / TIMELINE SECTION
+       ============================================ -->
+  <section class="section section-alt" id="journey">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> Journey</div>
+      <h2 class="section-title reveal reveal-delay-1">From the warehouse floor<br><span class="text-gradient">to building a product company</span></h2>
+      <p class="section-subtitle reveal reveal-delay-2">An unconventional path — rooted in operations, driven by systems thinking.</p>
+
+      <div class="timeline-track">
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-period">Starting Point</div>
+            <div class="tl-title">Warehouse Staff</div>
+            <div class="tl-desc">Spent years on the floor — managing inventory, coordinating shipments, tracking goods manually.
+              Learned exactly where operational systems break, and why Excel wasn't built for this.</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal reveal-delay-1">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-period">Evolution</div>
+            <div class="tl-title">Spreadsheet Consultant</div>
+            <div class="tl-desc">Started automating the pain points I experienced firsthand. Built Google Sheets systems
+              for distributors — inventory, invoicing, dashboards, P&L — all in one integrated workbook.
+              Clients saw the value immediately.</div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-active reveal reveal-delay-2">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-period">Now — Current</div>
+            <div class="tl-title">Building OPET</div>
+            <div class="tl-desc">Founding and architecting OPET — a full-stack business operating system for service businesses.
+              TypeScript, Express, Prisma, PostgreSQL. AI-assisted. Multi-branch. RBAC. This is the product
+              I wished existed when I was running operations.</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal reveal-delay-3">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-period">Next Chapter</div>
+            <div class="tl-title">AI Product Builder</div>
+            <div class="tl-desc">Scaling OPET, building a portfolio of AI-powered business tools, and helping service businesses
+              across Indonesia operate smarter — with systems that eliminate manual work and create real leverage.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label reveal"><span class="dot"></span> Contact</div>
+      <h2 class="section-title reveal reveal-delay-1">Let's build something<br><span class="text-gradient">meaningful together</span></h2>
+      <p class="section-subtitle reveal reveal-delay-2">Open to collaborations, consulting, and conversations about operational AI.</p>
+
+      <div class="contact-layout">
+
+        <div class="contact-text reveal reveal-delay-3">
+          <p>I'm open to discussing AI product development, business system architecture, consulting engagements,
+            and partnerships. Whether you have a specific problem or just want to explore ideas — reach out.</p>
+
+          <div class="contact-links">
+            <a href="mailto:ikhsanuddienkaffie@gmail.com" class="contact-link" id="contact-email" aria-label="Email">
+              <span class="contact-link-icon">✉</span>
+              <span>ikhsanuddienkaffie@gmail.com</span>
+              <span class="contact-link-arrow">→</span>
+            </a>
+            <a href="https://instagram.com/ikhsankaffie" class="contact-link" id="contact-instagram" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">
+              <span class="contact-link-icon">📷</span>
+              <span>Instagram</span>
+              <span class="contact-link-arrow">→</span>
+            </a>
+            <a href="https://linkedin.com/in/ikhsanuddienkaffie" class="contact-link" id="contact-linkedin" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <span class="contact-link-icon">💼</span>
+              <span>LinkedIn</span>
+              <span class="contact-link-arrow">→</span>
+            </a>
+            <a href="https://github.com/ikhsanuddienkaffie" class="contact-link" id="contact-github" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub">
+              <span class="contact-link-icon">🔗</span>
+              <span>GitHub</span>
+              <span class="contact-link-arrow">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-cta-box reveal reveal-delay-4">
+          <h3>Ready to Talk?</h3>
+          <p>Send me a WhatsApp message and let's discuss your project. Fast response. No fluff.</p>
+          <a href="https://wa.me/6281952737194?text=Hi%20Ikhsan%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
+            class="btn-whatsapp" id="contact-whatsapp" target="_blank" rel="noopener noreferrer">
+            <span>💬</span>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="brand-logo" style="width:24px;height:24px;font-size:0.6rem;">I</div>
+          <span>© 2026 Ikhsanuddien Kaffie — Ikhsan. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
