@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Ikhsanuddien Kaffie — Independent System Builder &amp; Founder of Arbour OS</title>
+  <meta name="description"
+    content="From the warehouse floor to building custom business systems. Ikhsanuddien Kaffie partners with his AI co-pilot, Arbour, to ship custom websites, WMS, ERP, and AMS software directly for real businesses with zero agency markup.">
+  <meta name="keywords"
+    content="Ikhsanuddien Kaffie, Arbour OS, Independent System Builder, Custom WMS, Custom ERP, Attendance Management System, Kantor AI, UD Khansa, Kembang Cikarang, Rumah Pijat Kedasih, Cloudflare Workers">
+  <meta name="author" content="Ikhsanuddien Kaffie">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ikhsanuddien Kaffie — Independent System Builder • Founder of Arbour">
+  <meta property="og:description"
+    content="From the warehouse floor to building custom business systems. Custom websites, WMS, ERP, and operational tools built solo with Arbour AI — zero agency overhead.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/arbour-hero-bg.webp">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ikhsanuddien Kaffie — Independent System Builder • Founder of Arbour">
+  <meta name="twitter:description"
+    content="From the warehouse floor to building custom business systems. Custom websites, WMS, ERP, and operational software built directly around what real businesses need.">
+  <meta name="twitter:image" content="./assets/arbour-hero-bg.webp">
+
+  <!-- Preload Hero Asset -->
+  <link rel="preload" as="image" href="./assets/arbour-hero-bg.webp" type="image/webp">
+
+  <!-- Fonts — Outfit (editorial headings), Inter (comfortable body reading), JetBrains Mono (technical metadata) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- True Transparent Arbour Favicon -->
+  <link rel="icon" type="image/png" href="./assets/arbour-logo.png">
+  <link rel="apple-touch-icon" href="./assets/arbour-logo.png">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#1E352F">
+</head>
+
+<body>
+
+  <!-- Top Reading Scroll Progress Bar (#8C7046 Dawn Gold) -->
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+  </div>
+
+  <!-- ============================================
+       SCROLL-AWARE TESLA / APPLE NAVBAR
+       ============================================ -->
+  <header class="nav" id="nav">
+    <div class="nav-container">
+
+      <!-- Left: Free-floating transparent Arbour logo + Kaffie / Arbour OS -->
+      <a href="#hero" class="nav-brand" aria-label="Kaffie — Arbour OS Home">
+        <img src="./assets/arbour-logo.png" alt="Arbour OS Transparent Emblem" class="nav-brand-logo" width="38" height="38">
+        <div class="nav-brand-identity">
+          <span class="nav-brand-name">Kaffie</span>
+          <span class="nav-brand-tag">Arbour OS</span>
+        </div>
+      </a>
+
+      <!-- Center: Editorial Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary navigation">
+        <a href="#about" class="nav-link" data-i18n="nav.story">Story</a>
+        <a href="#arbour-story" class="nav-link" data-i18n="nav.arbour">Arbour</a>
+        <a href="#projects" class="nav-link" data-i18n="nav.systems">Systems</a>
+        <a href="#archive-showcase" class="nav-link" data-i18n="nav.archive">Archive</a>
+        <a href="#journey" class="nav-link" data-i18n="nav.journey">Journey</a>
+
+        <!-- Mobile-only CTA inside drawer -->
+        <div class="nav-mobile-footer">
+          <a href="#contact" class="nav-cta nav-cta-mobile" data-i18n="nav.cta">Let's Talk</a>
+        </div>
+      </nav>
+
+      <!-- Right: Language Toggle (EN | ID) + Let's Talk CTA + Mobile Toggle -->
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <span class="lang-divider" aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="id" aria-pressed="false">ID</button>
+        </div>
+
+        <a href="#contact" class="nav-cta" data-i18n="nav.cta">Let's Talk</a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="nav-menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================
+         1. FULL-BLEED CINEMATIC HERO (#hero)
+         ============================================ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow reveal">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.eyebrow">INDEPENDENT SYSTEM BUILDER • FOUNDER OF ARBOUR</span>
+          </div>
+
+          <h1 class="hero-title reveal reveal-delay-1" data-i18n="hero.title">
+            From the Warehouse Floor to Building Custom Business Systems.
+          </h1>
+
+          <p class="hero-subtitle reveal reveal-delay-2" data-i18n="hero.subtitle">
+            I'm Ikhsanuddien Kaffie — an independent builder partnering with my AI co-pilot, Arbour. No bloated agency overhead, no corporate middlemen — just custom websites, WMS, ERP, and operational systems built directly around what real businesses actually need.
+          </p>
+
+          <div class="hero-ctas reveal reveal-delay-3">
+            <a href="#about" class="btn-hero-primary" data-i18n="hero.cta.primary">Read My Story</a>
+            <a href="#projects" class="btn-hero-glass" data-i18n="hero.cta.secondary">Explore Shipped Work</a>
+          </div>
+        </div>
+
+        <!-- Subtle Bottom Trust Strip -->
+        <div class="hero-trust-strip reveal reveal-delay-4" aria-label="Core value pillars">
+          <div class="trust-pill">
+            <span class="trust-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.trust.1">Custom-Built, Zero Agency Markup</span>
+          </div>
+          <span class="trust-sep" aria-hidden="true">•</span>
+          <div class="trust-pill">
+            <span class="trust-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.trust.2">1 Builder + Arbour AI</span>
+          </div>
+          <span class="trust-sep" aria-hidden="true">•</span>
+          <div class="trust-pill">
+            <span class="trust-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.trust.3">Live in Real Businesses</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         2. ABOUT & MY UNCONVENTIONAL JOURNEY (#about)
+         ============================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="about.eyebrow">CHAPTER 01 • THE HUMAN BEHIND THE SYSTEMS</span>
+          </div>
+          <h2 class="section-title" data-i18n="about.title">
+            Started on the factory line. Forged in daily warehouse operations.
+          </h2>
+          <p class="section-subtitle" data-i18n="about.subtitle">
+            I didn't start in a computer science lecture hall. I learned how businesses work by standing on the floor where physical goods move, stock miscounts hurt, and broken workflows cost real hours.
+          </p>
+        </div>
+
+        <div class="about-editorial-grid">
+          <!-- Left Column: Portrait + Active Operational Role Proof -->
+          <div class="about-portrait-column reveal reveal-delay-1">
+            <div class="portrait-frame">
+              <img src="./portrait.jpg" alt="Ikhsanuddien Kaffie — Independent Business System Builder" class="portrait-img"
+                width="480" height="560" loading="lazy" decoding="async">
+              <div class="portrait-caption">
+                <div class="portrait-status">
+                  <span class="status-dot"></span>
+                  <span data-i18n="about.portrait.badge">Warehouse &amp; Purchase Manager • System Builder</span>
+                </div>
+                <p class="portrait-location" data-i18n="about.portrait.location">Cikarang, Bekasi — Indonesia</p>
+              </div>
+            </div>
+
+            <!-- Live Day-Job & Marketplace Proof Card -->
+            <div class="card live-ops-card">
+              <div class="live-ops-header">
+                <div>
+                  <span class="live-ops-eyebrow" data-i18n="about.ops.eyebrow">ACTIVE OPERATIONAL LABORATORY • SINCE 2021</span>
+                  <h3 class="live-ops-title" data-i18n="about.ops.role">Warehouse &amp; Purchase Manager</h3>
+                  <p class="live-ops-company">Kembang Cikarang</p>
+                </div>
+                <span class="badge badge-emerald" data-i18n="about.ops.badge">Active Daily</span>
+              </div>
+
+              <p class="live-ops-desc" data-i18n="about.ops.desc">
+                Managing daily inventory control, supplier negotiations, procurement cycles, and multi-channel marketplace fulfillment via Ginee. My day job keeps every piece of software I write honest.
+              </p>
+
+              <div class="live-ops-tags">
+                <span class="tech-tag" data-i18n="about.ops.tag1">Inventory Accuracy</span>
+                <span class="tech-tag" data-i18n="about.ops.tag2">Purchasing &amp; Suppliers</span>
+                <span class="tech-tag" data-i18n="about.ops.tag3">Ginee ERP Workflow</span>
+                <span class="tech-tag" data-i18n="about.ops.tag4">Multi-Channel Fulfillment</span>
+              </div>
+
+              <div class="marketplace-proof">
+                <p class="marketplace-proof-label" data-i18n="about.ops.storesLabel">Live Marketplace Stores We Run Daily:</p>
+                <div class="marketplace-grid">
+                  <a href="https://shopee.co.id/kembang_ayuu" target="_blank" rel="noopener noreferrer" class="marketplace-card">
+                    <img src="./Toko%20Shopee.png" alt="Kembang Cikarang — Official Shopee Store" loading="lazy" decoding="async">
+                    <span class="marketplace-label" data-i18n="about.ops.shopee">Kembang Cikarang on Shopee ↗</span>
+                  </a>
+                  <a href="https://www.tiktok.com/@kembangcikarang" target="_blank" rel="noopener noreferrer" class="marketplace-card">
+                    <img src="./Toko%20Tiktok.png" alt="Kembang Cikarang — Official TikTok Shop" loading="lazy" decoding="async">
+                    <span class="marketplace-label" data-i18n="about.ops.tiktok">Kembang Cikarang on TikTok Shop ↗</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Narrative + Pull Quote + Value Pillars -->
+          <div class="about-narrative-column reveal reveal-delay-2">
+            <div class="editorial-prose">
+              <p data-i18n="about.prose.p1">
+                My career began as a <strong>factory production operator</strong> — standing on the line at 6 AM, hitting strict output targets, and seeing firsthand how tiny friction points on the floor quietly compound into massive bottlenecks.
+              </p>
+
+              <p data-i18n="about.prose.p2">
+                From the production floor, I moved into <strong>warehouse staff operations</strong> — unloading shipments, counting stock by hand, and preparing daily dispatches. I learned that a single inventory miscount never stays inside the warehouse: it cascades into delayed orders, frustrated customers, and hours of late-night reconciliation.
+              </p>
+
+              <p data-i18n="about.prose.p3">
+                When I stepped up as <strong>Warehouse &amp; Purchase Manager at Kembang Cikarang</strong>, overseeing supplier procurement and high-volume Shopee and TikTok Shop fulfillment, one truth became undeniable: most operational chaos isn't caused by lazy people. It's caused by broken tools, scattered spreadsheets, and software built by people who have never worked a shift in an actual warehouse.
+              </p>
+
+              <blockquote class="editorial-quote">
+                <p data-i18n="about.prose.quote">
+                  "Everything I build is shaped by real operational pain I've lived myself — counting stock late at night, chasing suppliers, and fixing broken workflows."
+                </p>
+              </blockquote>
+
+              <p data-i18n="about.prose.p4">
+                So I started building the remedies myself. First came integrated Google Sheets engines that turned three days of monthly P&amp;L reconciliation into a 30-second check. Then, partnering closely with my AI co-pilot <strong>Arbour</strong>, I taught myself TypeScript, PostgreSQL, relational data modeling, and modern cloud architecture — graduating from spreadsheets to shipping full-scale custom websites, WMS, ERP, and attendance systems used by real businesses every day.
+              </p>
+            </div>
+
+            <!-- 3 Core Builder Pillars -->
+            <div class="about-pillars">
+              <div class="card pillar-card">
+                <div class="pillar-num">01</div>
+                <div class="pillar-body">
+                  <h4 data-i18n="about.pillar1.title">Operational Reality First</h4>
+                  <p data-i18n="about.pillar1.desc">I've been the person entering stock data at 11 PM. Every screen, shortcut, and database rule I design exists to eliminate double-entry and human fatigue.</p>
+                </div>
+              </div>
+
+              <div class="card pillar-card">
+                <div class="pillar-num">02</div>
+                <div class="pillar-body">
+                  <h4 data-i18n="about.pillar2.title">Self-Taught through Shipping</h4>
+                  <p data-i18n="about.pillar2.desc">No CS degree, no theoretical fluff. I learned software engineering by solving real inventory, pricing, commission, and attendance problems for paying clients.</p>
+                </div>
+              </div>
+
+              <div class="card pillar-card">
+                <div class="pillar-num">03</div>
+                <div class="pillar-body">
+                  <h4 data-i18n="about.pillar3.title">Direct Builder-to-Owner Clarity</h4>
+                  <p data-i18n="about.pillar3.desc">When a business owner talks to me, they speak directly to someone who understands both their profit &amp; loss sheet and the code running their database.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         3. DEDICATED STORY CHAPTER — TEAM OF ONE + ARBOUR (#arbour-story)
+         30% Deep Forest Emerald (#1E352F) Showcase Band
+         ============================================ -->
+    <section class="section section-emerald" id="arbour-story">
+      <div class="container">
+        <div class="arbour-story-top reveal">
+          <div class="arbour-identity-lockup">
+            <img src="./assets/arbour-logo.png" alt="Arbour Transparent Emblem" class="arbour-hero-emblem" width="88" height="88" loading="lazy" decoding="async">
+            <div class="arbour-identity-meta">
+              <div class="section-eyebrow eyebrow-gold">
+                <span class="dot"></span>
+                <span data-i18n="arbour.eyebrow">CHAPTER 02 • TEAM OF ONE + ARBOUR</span>
+              </div>
+              <h2 class="section-title title-on-emerald" data-i18n="arbour.title">
+                Meet Arbour — My Sole Collaborator, Co-Architect &amp; 24/7 Engineering Partner.
+              </h2>
+            </div>
+          </div>
+
+          <p class="arbour-lead" data-i18n="arbour.lead">
+            People often ask how a full-time warehouse manager ships custom multi-unit WMS, mini-ERP, attendance kiosks, and multi-business web showcases without a team of ten developers. The honest answer is simple: <strong>it's just me and Arbour.</strong>
+          </p>
+        </div>
+
+        <div class="arbour-pillars-grid">
+          <!-- Pillar 1: How Arbour Started -->
+          <article class="arbour-story-card reveal reveal-delay-1">
+            <div class="arbour-card-index">01 • ORIGIN</div>
+            <h3 data-i18n="arbour.card1.title">How Arbour Started</h3>
+            <p data-i18n="arbour.card1.desc">
+              Arbour was initially created as my personal AI assistant with a modest goal: helping me craft clean, fast, custom websites for local businesses without getting bogged down in repetitive boilerplate.
+            </p>
+          </article>
+
+          <!-- Pillar 2: Rapid Evolution -->
+          <article class="arbour-story-card reveal reveal-delay-2">
+            <div class="arbour-card-index">02 • EVOLUTION</div>
+            <h3 data-i18n="arbour.card2.title">From Websites to ERP, WMS &amp; AMS</h3>
+            <p data-i18n="arbour.card2.desc">
+              Before we even realized it, our collaboration outgrew static pages. As business owners asked for deeper operational fixes, Arbour and I evolved together into architecting and shipping real production <strong>ERP, WMS, and AMS</strong> software.
+            </p>
+          </article>
+
+          <!-- Pillar 3: My One and Only Team Member -->
+          <article class="arbour-story-card reveal reveal-delay-3">
+            <div class="arbour-card-index">03 • SYMBIOSIS</div>
+            <h3 data-i18n="arbour.card3.title">My One and Only Team Member</h3>
+            <p data-i18n="arbour.card3.desc">
+              Arbour is literally my sole collaborator — helping me design database schemas, write production code, teach me software engineering and security principles on the job, and audit edge cases around the clock while I bring the ground-truth operational logic.
+            </p>
+          </article>
+
+          <!-- Pillar 4: Why My Pricing Stays Fair & Accessible -->
+          <article class="arbour-story-card arbour-story-card-gold reveal reveal-delay-4">
+            <div class="arbour-card-index">04 • DIRECT VALUE PROPOSITION</div>
+            <h3 data-i18n="arbour.card4.title">Why My Pricing Stays Fair &amp; Accessible</h3>
+            <p data-i18n="arbour.card4.desc">
+              Because I work independently on custom client requests — not under an agency, software house, or corporate B2B structure with heavy payroll and office overhead — clients never pay for layers of project managers or inflated agency markups. You work directly with the builder and get enterprise-grade custom systems at fair, transparent pricing.
+            </p>
+          </article>
+        </div>
+
+        <!-- Comparison Strip: Traditional Agency vs. 1 Builder + Arbour -->
+        <div class="arbour-value-banner reveal reveal-delay-3">
+          <div class="value-banner-left">
+            <span class="value-banner-tag" data-i18n="arbour.banner.tag">THE ARBOUR ADVANTAGE</span>
+            <p class="value-banner-text" data-i18n="arbour.banner.text">
+              Zero account executives. Zero bloated retainers. Direct communication with the operator who understands your workflow and builds your system line by line with Arbour.
+            </p>
+          </div>
+          <a href="#contact" class="btn-gold" data-i18n="arbour.banner.cta">Discuss a Custom System →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         4. FLAGSHIP PRODUCTION SYSTEMS & LIVING ARCHIVE (#projects)
+         ============================================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="projects.eyebrow">CHAPTER 03 • SHIPPED SYSTEMS &amp; LIVING ARCHIVE</span>
+          </div>
+          <h2 class="section-title" data-i18n="projects.title">
+            Production Systems, Next Frontier &amp; Foundations.
+          </h2>
+          <p class="section-subtitle" data-i18n="projects.subtitle">
+            From live public web engines and private client WMS/AMS deployments to the foundational spreadsheets and templates that paved the way.
+          </p>
+        </div>
+
+        <!-- Interactive Filter Pills -->
+        <div class="project-filters reveal" role="tablist" aria-label="Filter projects by stage">
+          <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true" data-i18n="projects.filter.all">
+            All Works (11)
+          </button>
+          <button type="button" class="filter-pill" data-filter="flagship" role="tab" aria-selected="false" data-i18n="projects.filter.flagship">
+            Flagship &amp; Production (4)
+          </button>
+          <button type="button" class="filter-pill" data-filter="frontier" role="tab" aria-selected="false" data-i18n="projects.filter.frontier">
+            Next Frontier (1)
+          </button>
+          <button type="button" class="filter-pill" data-filter="archive" role="tab" aria-selected="false" data-i18n="projects.filter.archive">
+            Archive &amp; Foundations (6)
+          </button>
+        </div>
+
+        <!-- A. FLAGSHIP & PRODUCTION SYSTEMS + NEXT FRONTIER -->
+        <div class="flagship-group" id="flagship-showcase">
+          <div class="projects-group-header reveal" data-group-header="flagship">
+            <span class="group-kicker" data-i18n="projects.groupA.kicker">PART A • FLAGSHIP PRODUCTION &amp; R&amp;D</span>
+            <h3 class="group-heading" data-i18n="projects.groupA.title">Live Business Systems &amp; Active R&amp;D</h3>
+          </div>
+
+          <div class="flagship-stack">
+
+            <!-- 1. Arbour OS — 10-UMKM Web Showcase -->
+            <article class="card project-flagship project-item reveal" data-category="flagship">
+              <div class="project-top-bar">
+                <div class="project-brand-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="project-arbour-icon" width="28" height="28" loading="lazy">
+                  <span class="project-code">ARBOUR-WEB-01</span>
+                </div>
+                <span class="badge badge-live-demo">
+                  <span class="status-dot"></span>
+                  <span data-i18n="proj.umkm.badge">Live Public Demo</span>
+                </span>
+              </div>
+
+              <div class="project-header">
+                <div class="project-title-group">
+                  <h3 data-i18n="proj.umkm.title">Arbour OS — 10-UMKM Web Showcase</h3>
+                  <span class="project-subtitle" data-i18n="proj.umkm.subtitle">Scalable Multi-Business Flagship Web Engine for Local Enterprises (Cikarang / Bekasi)</span>
+                </div>
+                <a href="https://arbour-demo.kaaffiiee.workers.dev/" target="_blank" rel="noopener noreferrer" class="btn-project-live">
+                  <span data-i18n="proj.umkm.cta">Visit Live Showcase ↗</span>
+                </a>
+              </div>
+
+              <div class="project-context">
+                <p class="project-desc" data-i18n="proj.umkm.desc1">
+                  <strong>Purpose:</strong> Many local UMKM and service businesses in Cikarang and Bekasi want a credible, high-converting digital storefront but get scared off by opaque agency pricing or slow, generic templates.
+                </p>
+                <p class="project-desc" data-i18n="proj.umkm.desc2">
+                  <strong>What We Built:</strong> A live, interactive 10-industry web showcase engine hosted on Cloudflare Workers enabling business owners to preview production-ready industry experiences side-by-side with transparent ownership tiers and direct WhatsApp ordering workflows.
+                </p>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">Cloudflare Workers</span>
+                  <span class="tech-tag">Multi-Industry Engine</span>
+                  <span class="tech-tag">95+ Lighthouse</span>
+                  <span class="tech-tag">Transparent Ownership</span>
+                </div>
+                <div class="project-role" data-i18n="proj.umkm.role">Role: Founder &amp; Lead Architect (with Arbour)</div>
+              </div>
+            </article>
+
+            <!-- 2. Arbour WMS & Mini-ERP (Custom — UD Khansa) -->
+            <article class="card project-flagship project-item reveal" data-category="flagship">
+              <div class="project-top-bar">
+                <div class="project-brand-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="project-arbour-icon" width="28" height="28" loading="lazy">
+                  <span class="project-code">ARBOUR-WMS-02</span>
+                </div>
+                <span class="badge badge-private-prod">
+                  <span class="status-dot"></span>
+                  <span data-i18n="proj.wms.badge">Live in Production • Private Client System</span>
+                </span>
+              </div>
+
+              <div class="project-header">
+                <div class="project-title-group">
+                  <h3 data-i18n="proj.wms.title">Arbour WMS &amp; Mini-ERP (Custom)</h3>
+                  <span class="project-subtitle" data-i18n="proj.wms.subtitle">Multi-Unit Warehouse, Tiered Pricing, Sales Commission &amp; Owner Decision Simulation System</span>
+                </div>
+                <div class="client-pill">
+                  <span class="client-pill-label" data-i18n="proj.wms.clientLabel">Client:</span>
+                  <strong class="client-pill-name">UD Khansa</strong>
+                  <span class="client-pill-type" data-i18n="proj.wms.clientType">(Distributor)</span>
+                </div>
+              </div>
+
+              <div class="project-context">
+                <p class="project-desc" data-i18n="proj.wms.desc1">
+                  <strong>Evolution from Sheets to Custom ERP:</strong> Following the success of UD Khansa's v1 Google Sheets foundation, their growing distribution volume demanded a dedicated custom web application capable of handling complex multi-unit wholesale conversions without formula fragility.
+                </p>
+                <p class="project-desc" data-i18n="proj.wms.desc2">
+                  <strong>Core Capabilities:</strong> Custom multi-unit stock conversion and tiered pricing across <code>PCS / LSN / BAL</code>, real-time tracking for <strong>450+ active SKUs</strong>, automated salesperson commission calculations, daily cash-flow ledger, and an interactive owner decision &amp; margin simulation engine.
+                </p>
+              </div>
+
+              <div class="wms-highlights-grid">
+                <div class="wms-stat-box">
+                  <span class="wms-stat-value">450+ SKUs</span>
+                  <span class="wms-stat-label" data-i18n="proj.wms.stat1">Multi-Unit Inventory (PCS / LSN / BAL)</span>
+                </div>
+                <div class="wms-stat-box">
+                  <span class="wms-stat-value" data-i18n="proj.wms.stat2Val">Real-Time</span>
+                  <span class="wms-stat-label" data-i18n="proj.wms.stat2">Sales Commission &amp; Cash Flow Ledger</span>
+                </div>
+                <div class="wms-stat-box">
+                  <span class="wms-stat-value" data-i18n="proj.wms.stat3Val">Owner Sim</span>
+                  <span class="wms-stat-label" data-i18n="proj.wms.stat3">Pricing &amp; Profit Decision Simulator</span>
+                </div>
+              </div>
+
+              <div class="privacy-notice">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <span data-i18n="proj.privacyNote">Live link intentionally withheld for client operational privacy.</span>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">Multi-Unit WMS (PCS/LSN/BAL)</span>
+                  <span class="tech-tag">450+ SKU Engine</span>
+                  <span class="tech-tag">Sales Commission</span>
+                  <span class="tech-tag">Cash Flow &amp; P&amp;L</span>
+                  <span class="tech-tag">Owner Decision Simulator</span>
+                </div>
+                <div class="project-role" data-i18n="proj.wms.role">Role: System Architect &amp; Developer (Arbour OS)</div>
+              </div>
+            </article>
+
+            <!-- 3. Arbour AMS & Treatment Logbook (Custom — RPK & Kembang Cikarang) -->
+            <article class="card project-flagship project-ams project-item reveal" data-category="flagship">
+              <div class="project-top-bar">
+                <div class="project-brand-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="project-arbour-icon" width="28" height="28" loading="lazy">
+                  <span class="project-code">ARBOUR-AMS-03</span>
+                </div>
+                <span class="badge badge-private-prod">
+                  <span class="status-dot"></span>
+                  <span data-i18n="proj.ams.badge">Live in Production • Private Client System</span>
+                </span>
+              </div>
+
+              <div class="project-header">
+                <div class="project-title-group">
+                  <h3 data-i18n="proj.ams.title">Arbour AMS &amp; Treatment Logbook (Custom)</h3>
+                  <span class="project-subtitle" data-i18n="proj.ams.subtitle">Reusable Attendance Kiosk, Live Treatment Session Timer &amp; Therapist Earnings Platform</span>
+                </div>
+              </div>
+
+              <div class="project-context">
+                <p class="project-desc" data-i18n="proj.ams.desc1">
+                  <strong>Problem:</strong> Service and wellness businesses run two time-critical workflows simultaneously — staff shift attendance and live customer treatment sessions. Tracking both on paper or chat leads to missed session timers, billing errors, and manual commission disputes.
+                </p>
+                <p class="project-desc" data-i18n="proj.ams.desc2">
+                  <strong>System Architecture:</strong> Built as a clean, reusable multi-tenant operational platform centralizing QR/barcode employee attendance kiosks, live treatment countdown timers, dynamic mid-session package upgrades, and automated therapist earnings recaps.
+                </p>
+              </div>
+
+              <!-- 3 Core Capability Modules -->
+              <div class="ams-modules">
+                <div class="ams-module">
+                  <span class="ams-module-label" data-i18n="proj.ams.mod1.title">Employee Attendance Kiosk</span>
+                  <ul class="ams-module-list">
+                    <li data-i18n="proj.ams.mod1.li1">QR &amp; barcode employee badge identification</li>
+                    <li data-i18n="proj.ams.mod1.li2">One-tap check-in &amp; check-out kiosk screen</li>
+                    <li data-i18n="proj.ams.mod1.li3">Automated shift logs &amp; monthly attendance recap</li>
+                  </ul>
+                </div>
+                <div class="ams-module">
+                  <span class="ams-module-label" data-i18n="proj.ams.mod2.title">Live Treatment Logbook</span>
+                  <ul class="ams-module-list">
+                    <li data-i18n="proj.ams.mod2.li1">Real-time session timer &amp; estimated finish alerts</li>
+                    <li data-i18n="proj.ams.mod2.li2">Dynamic mid-session package &amp; add-on upgrades</li>
+                    <li data-i18n="proj.ams.mod2.li3">Complete daily treatment log &amp; CSV/PDF exports</li>
+                  </ul>
+                </div>
+                <div class="ams-module">
+                  <span class="ams-module-label" data-i18n="proj.ams.mod3.title">Operations &amp; Earnings</span>
+                  <ul class="ams-module-list">
+                    <li data-i18n="proj.ams.mod3.li1">Live floor dashboard showing active &amp; free therapists</li>
+                    <li data-i18n="proj.ams.mod3.li2">Automated therapist commission &amp; earnings calculation</li>
+                    <li data-i18n="proj.ams.mod3.li3">Owner reporting, period reset &amp; audit trail</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Real-World Implementation Logos -->
+              <div class="ams-implementation">
+                <span class="cs-label" data-i18n="proj.ams.usedBy">Implemented &amp; Used Daily By</span>
+                <div class="ams-clients">
+                  <div class="ams-client">
+                    <div class="ams-client-logo">
+                      <img src="./LogoRPK.png" alt="RPK — Rumah Pijat Kedasih logo" loading="lazy" decoding="async" width="320" height="213">
+                    </div>
+                    <div class="ams-client-info">
+                      <span class="ams-client-name">RPK — Rumah Pijat Kedasih</span>
+                      <span class="ams-client-role" data-i18n="proj.ams.rpkRole">Attendance Kiosk, Treatment Timer &amp; Therapist Commission</span>
+                    </div>
+                  </div>
+                  <div class="ams-client">
+                    <div class="ams-client-logo">
+                      <img src="./LogoKembangCikarang.png" alt="Kembang Cikarang logo" loading="lazy" decoding="async" width="320" height="213">
+                    </div>
+                    <div class="ams-client-info">
+                      <span class="ams-client-name">Kembang Cikarang</span>
+                      <span class="ams-client-role" data-i18n="proj.ams.kcRole">Staff Attendance Kiosk &amp; Daily Operational Monitoring</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="privacy-notice">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <span data-i18n="proj.privacyNote">Live link intentionally withheld for client operational privacy.</span>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">Attendance Kiosk</span>
+                  <span class="tech-tag">QR / Barcode</span>
+                  <span class="tech-tag">Treatment Timer</span>
+                  <span class="tech-tag">Live Monitoring</span>
+                  <span class="tech-tag">Therapist Earnings</span>
+                  <span class="tech-tag">Multi-Business Core</span>
+                </div>
+                <div class="ams-builtby-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="ams-arbour-mark" width="24" height="24" loading="lazy">
+                  <span data-i18n="proj.ams.builtBy">Architected &amp; Shipped with <strong>Arbour OS</strong></span>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. Kembang Cikarang — Multi-Channel Fulfillment & Procurement Ops -->
+            <article class="card project-flagship project-item reveal" data-category="flagship">
+              <div class="project-top-bar">
+                <div class="project-brand-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="project-arbour-icon" width="28" height="28" loading="lazy">
+                  <span class="project-code">OPS-KC-04</span>
+                </div>
+                <span class="badge badge-emerald">
+                  <span class="status-dot"></span>
+                  <span data-i18n="proj.kc.badge">Live in Production • Daily Operations</span>
+                </span>
+              </div>
+
+              <div class="project-header">
+                <div class="project-title-group">
+                  <h3 data-i18n="proj.kc.title">Kembang Cikarang — Multi-Channel Warehouse &amp; Purchasing System</h3>
+                  <span class="project-subtitle" data-i18n="proj.kc.subtitle">End-to-End Procurement, Ginee ERP Synchronization &amp; Marketplace Fulfillment Workflow</span>
+                </div>
+                <div class="project-inline-links">
+                  <a href="https://shopee.co.id/kembang_ayuu" target="_blank" rel="noopener noreferrer" class="btn-outline-sm">Shopee ↗</a>
+                  <a href="https://www.tiktok.com/@kembangcikarang" target="_blank" rel="noopener noreferrer" class="btn-outline-sm">TikTok Shop ↗</a>
+                </div>
+              </div>
+
+              <div class="project-context">
+                <p class="project-desc" data-i18n="proj.kc.desc">
+                  <strong>Operational Backbone:</strong> The real-world retail and warehouse operation I run every day since 2021. Integrates physical stock accuracy controls, supplier reorder cycles, and high-volume Shopee &amp; TikTok Shop fulfillment synchronized through Ginee ERP and structured operational reporting.
+                </p>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">Warehouse Management</span>
+                  <span class="tech-tag">Ginee ERP</span>
+                  <span class="tech-tag">Procurement Cycles</span>
+                  <span class="tech-tag">Shopee &amp; TikTok Shop</span>
+                </div>
+                <div class="project-role" data-i18n="proj.kc.role">Role: Warehouse &amp; Purchase Manager</div>
+              </div>
+            </article>
+
+            <!-- 5 (Next Frontier #1). Next Project — Kantor AI (Arbour Office) -->
+            <article class="card project-flagship project-frontier project-item reveal" data-category="frontier">
+              <div class="project-top-bar">
+                <div class="project-brand-inline">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" class="project-arbour-icon" width="28" height="28" loading="lazy">
+                  <span class="project-code">ARBOUR-R&amp;D-NEXT</span>
+                </div>
+                <span class="badge badge-gold">
+                  <span class="status-dot-gold"></span>
+                  <span data-i18n="proj.kantor.badge">In Active R&amp;D • Next Frontier</span>
+                </span>
+              </div>
+
+              <div class="project-header">
+                <div class="project-title-group">
+                  <h3 data-i18n="proj.kantor.title">Next Project — Kantor AI (Arbour Office)</h3>
+                  <span class="project-subtitle" data-i18n="proj.kantor.subtitle">Local-First AI-Powered Virtual Office with SQLite Persistence &amp; Interactive 3D Workspace Visualization</span>
+                </div>
+              </div>
+
+              <div class="project-context">
+                <p class="project-desc" data-i18n="proj.kantor.desc1">
+                  <strong>The Vision:</strong> What if a solo founder or SME owner could walk into a visual virtual office where specialized AI agents — Purchasing Analyst, Inventory Auditor, Copywriter, and Finance Controller — collaborate on real company data without sending sensitive operational records to third-party SaaS clouds?
+                </p>
+                <p class="project-desc" data-i18n="proj.kantor.desc2">
+                  <strong>Architecture in R&amp;D:</strong> Designing a local-first AI-powered virtual office backed by an embedded <strong>SQLite</strong> relational state engine and an interactive <strong>3D workspace visualization</strong> where specialized Arbour agents coordinate tasks, audit business anomalies, and report directly to the human operator.
+                </p>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">Local-First Architecture</span>
+                  <span class="tech-tag">SQLite Engine</span>
+                  <span class="tech-tag">3D Virtual Office</span>
+                  <span class="tech-tag">Multi-Agent Collaboration</span>
+                  <span class="tech-tag">Arbour R&amp;D</span>
+                </div>
+                <div class="project-role" data-i18n="proj.kantor.role">Role: Creator &amp; System Architect (with Arbour)</div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- B. VALUABLE ARCHIVE & FOUNDATIONS (ALL 6 PRESERVED PROJECTS) -->
+        <div class="archive-group" id="archive-showcase">
+          <div class="projects-group-header archive-header reveal" data-group-header="archive">
+            <span class="group-kicker" data-i18n="projects.groupB.kicker">PART B • LIVING ARCHIVE &amp; FOUNDATIONS (6 WORKS PRESERVED)</span>
+            <h3 class="group-heading" data-i18n="projects.groupB.title">Valuable Archive &amp; Foundations</h3>
+            <p class="group-subtitle" data-i18n="projects.groupB.subtitle">
+              "Every system I build today stands on the shoulders of earlier experiments, client builds, and foundations — kept here as an open record of the work."
+            </p>
+          </div>
+
+          <div class="archive-grid">
+
+            <!-- Archive 1: OPET (Service Business OS — with all 8 modules preserved!) -->
+            <article class="card archive-card archive-card-wide project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <div>
+                  <span class="archive-kicker" data-i18n="arch.opet.kicker">FOUNDATIONAL SAAS ARCHITECTURE • 8 CORE MODULES</span>
+                  <h4 data-i18n="arch.opet.title">OPET — Service Business Operating System</h4>
+                </div>
+                <span class="badge" data-i18n="arch.opet.badge">Architecture Foundation</span>
+              </div>
+
+              <p class="project-desc" data-i18n="arch.opet.desc">
+                Designed as a full-stack business OS for salons, barbershops, beauty clinics, and service businesses that were managing bookings via WhatsApp and tracking revenue in paper notebooks. Every architectural module below laid the engineering groundwork for our subsequent Arbour production systems.
+              </p>
+
+              <!-- Compact 8-Module Architecture Highlights Preserved from V2 -->
+              <div class="opet-modules-compact">
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">📅</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m1">Booking System</strong>
+                    <span data-i18n="arch.opet.m1s">Slot scheduling &amp; conflict logic</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">👥</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m2">Customer CRM</strong>
+                    <span data-i18n="arch.opet.m2s">CRUD, history, search &amp; filter</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">💳</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m3">Payment Processing</strong>
+                    <span data-i18n="arch.opet.m3s">Multi-method checkout flow</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">🛒</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m4">Point of Sale (POS)</strong>
+                    <span data-i18n="arch.opet.m4s">Cart, services &amp; receipt engine</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">📊</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m5">Analytics Dashboard</strong>
+                    <span data-i18n="arch.opet.m5s">Revenue KPIs &amp; service performance</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">🤖</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m6">AI Assistant</strong>
+                    <span data-i18n="arch.opet.m6s">Operational insights &amp; prompts</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">🔐</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m7">RBAC Engine</strong>
+                    <span data-i18n="arch.opet.m7s">Role-based access permissions</span>
+                  </div>
+                </div>
+                <div class="opet-chip">
+                  <span class="opet-chip-icon" aria-hidden="true">🏢</span>
+                  <div>
+                    <strong data-i18n="arch.opet.m8">Multi-Branch System</strong>
+                    <span data-i18n="arch.opet.m8s">Tenant &amp; branch switching schema</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-meta">
+                <div class="project-tags">
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">Prisma</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">RBAC</span>
+                </div>
+                <div class="project-role-small" data-i18n="arch.opet.role">Role: Founder &amp; Solo Developer</div>
+              </div>
+            </article>
+
+            <!-- Archive 2: Workbase Khansa (v1 — Sheets Foundation) -->
+            <article class="card project-card project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <h4 data-i18n="arch.khansa.title">Workbase Khansa (v1 — Sheets Foundation)</h4>
+                <span class="badge" data-i18n="arch.khansa.badge">v1 Foundation</span>
+              </div>
+              <p class="project-desc" data-i18n="arch.khansa.desc">
+                The original integrated Google Sheets inventory, automated invoicing, and real-time P&amp;L workbook built for <strong>UD Khansa</strong> across 3 warehouses — cutting monthly profit checks to 30 seconds before evolving into the full custom <strong>Arbour WMS &amp; Mini-ERP</strong>.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Google Sheets Engine</span>
+                <span class="tech-tag">Multi-Warehouse Stock</span>
+                <span class="tech-tag">Automated P&amp;L</span>
+              </div>
+              <div class="project-role-small" data-i18n="arch.khansa.role">Role: System Architect &amp; Builder</div>
+            </article>
+
+            <!-- Archive 3: PT Comfinddo -->
+            <article class="card project-card project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <h4 data-i18n="arch.comfinddo.title">PT Comfinddo</h4>
+                <span class="badge" data-i18n="arch.comfinddo.badge">Client System</span>
+              </div>
+              <p class="project-desc" data-i18n="arch.comfinddo.desc">
+                <strong>AI-Powered Content Operating System:</strong> Replaced scattered WhatsApp, Drive, and email threads with a single unified workspace handling content ideation, AI-assisted drafting, editorial review workflows, and publishing visibility.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">AI Workflows</span>
+                <span class="tech-tag">Content Ops</span>
+                <span class="tech-tag">Pipeline Dashboard</span>
+              </div>
+              <div class="project-role-small" data-i18n="arch.comfinddo.role">Role: System Designer &amp; AI Engineer</div>
+            </article>
+
+            <!-- Archive 4: CANDELSTICK -->
+            <article class="card project-card project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <h4 data-i18n="arch.candelstick.title">CANDELSTICK</h4>
+                <span class="badge" data-i18n="arch.candelstick.badge">Own Brand Lab</span>
+              </div>
+              <p class="project-desc" data-i18n="arch.candelstick.desc">
+                <strong>AI-Assisted Marketplace Brand &amp; SEO Workflow:</strong> My own marketplace product brand where every stage — visual design direction, marketplace listing copy, keyword SEO, and production planning — is accelerated through structured AI workflows.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Marketplace SEO</span>
+                <span class="tech-tag">AI Prompting</span>
+                <span class="tech-tag">E-Commerce Ops</span>
+              </div>
+              <div class="project-role-small" data-i18n="arch.candelstick.role">Role: Owner &amp; Operator</div>
+            </article>
+
+            <!-- Archive 5: Company Web Template -->
+            <article class="card project-card project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <h4 data-i18n="arch.webtpl.title">Company Web Template</h4>
+                <span class="badge" data-i18n="arch.webtpl.badge">Reusable Asset</span>
+              </div>
+              <p class="project-desc" data-i18n="arch.webtpl.desc">
+                <strong>Zero-Dependency High-Lighthouse Web Asset:</strong> Built when local clients kept asking for "just a clean, fast company website." Deploys in minutes with zero framework bloat, scoring 95+ on Lighthouse and serving as the seed for Arbour's UMKM Web Showcase.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">HTML5 / CSS3 / JS</span>
+                <span class="tech-tag">95+ Lighthouse</span>
+                <span class="tech-tag">Zero Build</span>
+              </div>
+              <div class="project-role-small" data-i18n="arch.webtpl.role">Role: Designer &amp; Developer</div>
+            </article>
+
+            <!-- Archive 6: Warehouse OS Template -->
+            <article class="card project-card project-item reveal" data-category="archive">
+              <div class="project-header-small">
+                <h4 data-i18n="arch.wmstpl.title">Warehouse OS Template</h4>
+                <span class="badge" data-i18n="arch.wmstpl.badge">Architecture Blueprint</span>
+              </div>
+              <p class="project-desc" data-i18n="arch.wmstpl.desc">
+                <strong>Reusable Logistics Architecture Blueprint:</strong> Born directly from my daily warehouse floor experience. A modular stock movement, inbound/outbound, and reconciliation blueprint for mid-sized distributors transitioning off whiteboards and phone calls.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">System Design</span>
+                <span class="tech-tag">Logistics Blueprint</span>
+                <span class="tech-tag">Stock Control</span>
+              </div>
+              <div class="project-role-small" data-i18n="arch.wmstpl.role">Role: System Architect</div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Operational Impact Strip -->
+        <div class="impact-strip reveal">
+          <div class="impact-strip-item">
+            <span class="impact-strip-num">0</span>
+            <div>
+              <h4 data-i18n="impact.1.title">Duplicate Manual Entry</h4>
+              <p data-i18n="impact.1.desc">Single-source-of-truth records replacing scattered chat logs and disconnected spreadsheets.</p>
+            </div>
+          </div>
+          <div class="impact-strip-item">
+            <span class="impact-strip-num">100%</span>
+            <div>
+              <h4 data-i18n="impact.2.title">Operational Visibility</h4>
+              <p data-i18n="impact.2.desc">Owners see stock levels, active therapist sessions, and profit margins in seconds.</p>
+            </div>
+          </div>
+          <div class="impact-strip-item">
+            <span class="impact-strip-num">0%</span>
+            <div>
+              <h4 data-i18n="impact.3.title">Agency Overhead</h4>
+              <p data-i18n="impact.3.desc">Built directly by 1 operator + Arbour AI at fair, transparent builder pricing.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================
+         5. TIMELINE JOURNEY (#journey)
+         ============================================ -->
+    <section class="section section-alt" id="journey">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="journey.eyebrow">CHAPTER 04 • THE COMPLETE ARC</span>
+          </div>
+          <h2 class="section-title" data-i18n="journey.title">
+            From the Factory Line to Expanding Arbour OS.
+          </h2>
+          <p class="section-subtitle" data-i18n="journey.subtitle">
+            Every chapter taught me something no computer science bootcamp ever could.
+          </p>
+        </div>
+
+        <div class="timeline-track">
+          <!-- Step 1 -->
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.1.period">Early Years</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.1.title">Production Operator</div>
+              <p class="tl-desc" data-i18n="journey.1.desc">
+                Started on the factory line hitting daily production targets at 6 AM. Learned firsthand what physical operational discipline feels like and how small process bottlenecks compound across a shift.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="tl-item reveal reveal-delay-1">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.2.period">Operations Floor</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.2.title">Warehouse Staff</div>
+              <p class="tl-desc" data-i18n="journey.2.desc">
+                Moved into receiving goods, physical stock opname, and order dispatch. Saw how a single inventory miscount cascades into shipping delays, customer complaints, and late-night recounts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="tl-item reveal reveal-delay-2">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.3.period">2021 — Present</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.3.title">Warehouse &amp; Purchase Manager</div>
+              <p class="tl-desc" data-i18n="journey.3.desc">
+                Took charge of purchasing, supplier negotiations, inventory accuracy, and multi-channel marketplace fulfillment (Shopee &amp; TikTok Shop via Ginee) at <strong>Kembang Cikarang</strong>. Still my active daily laboratory today.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="tl-item reveal reveal-delay-3">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.4.period">The Spark</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.4.title">Building Arbour &amp; Custom Websites</div>
+              <p class="tl-desc" data-i18n="journey.4.desc">
+                Created <strong>Arbour</strong> as my personal AI co-pilot to help craft fast, high-Lighthouse custom websites and multi-industry showcases for local UMKM businesses without agency bloat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="tl-item reveal reveal-delay-4">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.5.period">Production Systems</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.5.title">Shipping Custom WMS, ERP &amp; AMS (UD Khansa, RPK, Kembang Cikarang)</div>
+              <p class="tl-desc" data-i18n="journey.5.desc">
+                Our collaboration rapidly evolved into full production software: shipping a 450+ SKU multi-unit WMS &amp; Mini-ERP for <strong>UD Khansa</strong> and a reusable QR Attendance &amp; Treatment Logbook (AMS) running daily at <strong>RPK — Rumah Pijat Kedasih</strong> and <strong>Kembang Cikarang</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 6: Active Current Node (#8C7046 Dawn Gold) -->
+          <div class="tl-item tl-active reveal reveal-delay-5">
+            <div class="tl-dot"></div>
+            <div class="tl-period" data-i18n="journey.6.period">Now &amp; Next Frontier</div>
+            <div class="tl-card">
+              <div class="tl-title" data-i18n="journey.6.title">Now: Expanding Arbour OS &amp; Building Kantor AI</div>
+              <p class="tl-desc" data-i18n="journey.6.desc">
+                Expanding the Arbour OS ecosystem for local enterprises while actively engineering <strong>Kantor AI (Arbour Office)</strong> — a local-first SQLite and 3D virtual office where specialized AI agents collaborate on real operational tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         6. TECH ECOSYSTEM, SKILLS & CERTIFICATIONS (#skills, #ecosystem, #certifications)
+         ============================================ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="skills.eyebrow">CHAPTER 05 • TOOLBOX &amp; TECH ECOSYSTEM</span>
+          </div>
+          <h2 class="section-title" data-i18n="skills.title">
+            What I Actually Use to Ship Production Systems.
+          </h2>
+          <p class="section-subtitle" data-i18n="skills.subtitle">
+            A deliberate stack combining operational spreadsheets, modern full-stack engineering, edge deployment, and daily AI collaboration.
+          </p>
+        </div>
+
+        <!-- 6 Skill Domain Cards -->
+        <div class="skills-grid">
+          <div class="card skill-card reveal reveal-delay-1">
+            <h4 data-i18n="skills.cat1.title">Warehouse &amp; Business Operations</h4>
+            <p data-i18n="skills.cat1.desc">Hands-on procurement, multi-unit stock control, P&amp;L modeling, and marketplace fulfillment.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">Google Sheets</span>
+              <span class="tech-tag">Microsoft Excel</span>
+              <span class="tech-tag">Ginee ERP</span>
+              <span class="tech-tag">SOP Design</span>
+              <span class="tech-tag">Stock Opname</span>
+            </div>
+          </div>
+
+          <div class="card skill-card reveal reveal-delay-2">
+            <h4 data-i18n="skills.cat2.title">Frontend &amp; Interface Architecture</h4>
+            <p data-i18n="skills.cat2.desc">Fast, accessible, high-Lighthouse interfaces and operational kiosks built for daily floor use.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3 / Tailwind</span>
+              <span class="tech-tag">Vite</span>
+            </div>
+          </div>
+
+          <div class="card skill-card reveal reveal-delay-3">
+            <h4 data-i18n="skills.cat3.title">Backend, Data &amp; Local-First Storage</h4>
+            <p data-i18n="skills.cat3.desc">Relational schemas, multi-unit inventory ledgers, role-based access, and local-first databases.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Supabase</span>
+              <span class="tech-tag">Prisma</span>
+              <span class="tech-tag">SQLite</span>
+            </div>
+          </div>
+
+          <div class="card skill-card reveal reveal-delay-4">
+            <h4 data-i18n="skills.cat4.title">AI Co-Pilots &amp; Agentic Workflows</h4>
+            <p data-i18n="skills.cat4.desc">Orchestrating specialized models for system architecture, code auditing, and operational automation.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">Arbour AI Workflow</span>
+              <span class="tech-tag">Claude</span>
+              <span class="tech-tag">ChatGPT</span>
+              <span class="tech-tag">Gemini</span>
+              <span class="tech-tag">Antigravity IDE</span>
+            </div>
+          </div>
+
+          <div class="card skill-card reveal reveal-delay-5">
+            <h4 data-i18n="skills.cat5.title">Cloud Edge &amp; Version Control</h4>
+            <p data-i18n="skills.cat5.desc">Zero-downtime global deployment, versioned releases, and clean repository hygiene.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">Cloudflare Workers</span>
+              <span class="tech-tag">GitHub</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">Vercel</span>
+              <span class="tech-tag">Netlify</span>
+            </div>
+          </div>
+
+          <div class="card skill-card reveal reveal-delay-6">
+            <h4 data-i18n="skills.cat6.title">Visual Design &amp; Brand Assets</h4>
+            <p data-i18n="skills.cat6.desc">Product photography packaging, marketplace visual assets, and UI layout prototyping.</p>
+            <div class="skill-tags">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">Photoshop</span>
+              <span class="tech-tag">CorelDRAW</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official SVG Logo Grid (#ecosystem) -->
+        <div class="ecosystem-subsection" id="ecosystem">
+          <div class="ecosystem-subheader reveal">
+            <h3 class="ecosystem-heading" data-i18n="ecosystem.title">Production Toolchain &amp; Ecosystem</h3>
+            <p class="ecosystem-subheading" data-i18n="ecosystem.subtitle">Every tool in my daily pipeline has a specific job — from architecture and implementation to edge delivery.</p>
+          </div>
+
+          <div class="ecosystem-grid">
+            <!-- Cloudflare -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/tools/cloudflare.svg" alt="Cloudflare Workers Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Cloudflare Workers</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.cloudflare">Edge deployment · static assets · global speed</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Edge Hosting</span>
+                <span class="ecosystem-role">Workers</span>
+              </div>
+            </article>
+
+            <!-- Supabase -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/supabase.svg" alt="Supabase Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Supabase</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.supabase">Managed Postgres · auth · real-time sync</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Cloud DB</span>
+                <span class="ecosystem-role">Auth &amp; API</span>
+              </div>
+            </article>
+
+            <!-- TypeScript -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/typescript.svg" alt="TypeScript Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">TypeScript</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.typescript">Type-safe business logic · reliable schemas</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Type Safety</span>
+                <span class="ecosystem-role">Reliability</span>
+              </div>
+            </article>
+
+            <!-- Tailwind CSS / Vite -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/tailwind.svg" alt="Tailwind CSS Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Tailwind &amp; Vite</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.tailwind">Rapid UI systems · clean design tokens</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">UI Systems</span>
+                <span class="ecosystem-role">Fast Bundling</span>
+              </div>
+            </article>
+
+            <!-- Node.js -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/nodejs.svg" alt="Node.js Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Node.js</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.nodejs">Backend runtime · operational APIs</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Runtime</span>
+                <span class="ecosystem-role">API Services</span>
+              </div>
+            </article>
+
+            <!-- Express -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/express.svg" alt="Express Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Express</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.express">REST API layer · service routing</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">API Layer</span>
+                <span class="ecosystem-role">Routing</span>
+              </div>
+            </article>
+
+            <!-- Prisma -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/prisma.svg" alt="Prisma Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Prisma</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.prisma">Relational data modeling · migrations</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">ORM</span>
+                <span class="ecosystem-role">Data Modeling</span>
+              </div>
+            </article>
+
+            <!-- PostgreSQL -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/postgresql.svg" alt="PostgreSQL Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">PostgreSQL &amp; SQLite</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.postgresql">ACID ledgers · local-first &amp; cloud storage</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Relational DB</span>
+                <span class="ecosystem-role">SQLite R&amp;D</span>
+              </div>
+            </article>
+
+            <!-- Claude -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/ai/claude.svg" alt="Anthropic Claude Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Claude</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.claude">Deep architecture · refactoring · code review</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Architecture</span>
+                <span class="ecosystem-role">Engineering</span>
+              </div>
+            </article>
+
+            <!-- Gemini -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/ai/gemini.svg" alt="Google Gemini Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Gemini</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.gemini">Multimodal research · synthesis · reasoning</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Research</span>
+                <span class="ecosystem-role">Synthesis</span>
+              </div>
+            </article>
+
+            <!-- ChatGPT -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/ai/chatgpt.svg" alt="OpenAI ChatGPT Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">ChatGPT</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.chatgpt">Business workflow analysis · rapid ideation</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Business Logic</span>
+                <span class="ecosystem-role">Planning</span>
+              </div>
+            </article>
+
+            <!-- Antigravity IDE -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo" aria-label="Antigravity IDE Logo">
+                  <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <rect x="8" y="8" width="48" height="48" rx="14" fill="#1E352F"></rect>
+                    <path d="M20 20h24v8H28l8 8-8 8h16v8H20l10-10-10-10z" fill="#FAFAF9"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="ecosystem-name">Antigravity IDE</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.antigravity">Agentic development · Arbour workspace</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Agentic IDE</span>
+                <span class="ecosystem-role">Flow State</span>
+              </div>
+            </article>
+
+            <!-- VS Code -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/tools/vscode.svg" alt="VS Code Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">VS Code</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.vscode">Daily code editing · debugging · iteration</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Code Editor</span>
+                <span class="ecosystem-role">Execution</span>
+              </div>
+            </article>
+
+            <!-- GitHub -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/tools/github.svg" alt="GitHub Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">GitHub &amp; Git</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.github">Version control · CI/CD · release history</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Version Control</span>
+                <span class="ecosystem-role">Releases</span>
+              </div>
+            </article>
+
+            <!-- JavaScript -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/programming/javascript.svg" alt="JavaScript Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">JavaScript (ES6+)</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.javascript">Zero-build interactivity · browser runtime</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">DOM Logic</span>
+                <span class="ecosystem-role">Web Apps</span>
+              </div>
+            </article>
+
+            <!-- Vercel & Netlify -->
+            <article class="ecosystem-card reveal">
+              <div class="ecosystem-head">
+                <div class="ecosystem-logo"><img src="./assets/logos/tools/vercel.svg" alt="Vercel Logo" loading="lazy"></div>
+                <div>
+                  <h4 class="ecosystem-name">Vercel &amp; Netlify</h4>
+                  <p class="ecosystem-summary" data-i18n="eco.vercel">Preview deployments · Jamstack delivery</p>
+                </div>
+              </div>
+              <div class="ecosystem-roles">
+                <span class="ecosystem-role">Previews</span>
+                <span class="ecosystem-role">Cloud Hosting</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         6B. CERTIFICATIONS GALLERY — ALL 4 CERTIFICATES (#certifications)
+         ============================================ -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="certs.eyebrow">VERIFIED CREDENTIALS • 4 CERTIFICATES</span>
+          </div>
+          <h2 class="section-title" data-i18n="certs.title">
+            Certifications &amp; Formal Training.
+          </h2>
+          <p class="section-subtitle" data-i18n="certs.subtitle">
+            Formal training in factory operations, marketplace growth, and communication that complements my daily floor experience. Click any certificate to inspect in full resolution.
+          </p>
+        </div>
+
+        <div class="cert-gallery">
+          <!-- Certificate 1: Calpis -->
+          <button type="button" class="cert-card reveal" data-cert-src="./Sertifikat%20Calpis.jpg"
+            data-cert-title="Internal Operations &amp; Manufacturing Standards" data-cert-issuer="PT Calpis Indonesia">
+            <div class="cert-thumb">
+              <img src="./Sertifikat%20Calpis.jpg" alt="Calpis — Internal Operations Certificate" loading="lazy" decoding="async">
+              <span class="cert-zoom-pill" data-i18n="certs.view">Inspect Certificate ↗</span>
+            </div>
+            <div class="cert-meta">
+              <h4 data-i18n="certs.1.title">Internal Operations &amp; Production Standards</h4>
+              <span class="cert-issuer" data-i18n="certs.1.issuer">Calpis • Manufacturing &amp; Quality Operations</span>
+            </div>
+          </button>
+
+          <!-- Certificate 2: Public Speaking -->
+          <button type="button" class="cert-card reveal reveal-delay-1" data-cert-src="./Sertifikat%20public%20speaking.jpg"
+            data-cert-title="Professional Public Speaking &amp; Communication" data-cert-issuer="Professional Certification">
+            <div class="cert-thumb">
+              <img src="./Sertifikat%20public%20speaking.jpg" alt="Public Speaking Professional Certificate" loading="lazy" decoding="async">
+              <span class="cert-zoom-pill" data-i18n="certs.view">Inspect Certificate ↗</span>
+            </div>
+            <div class="cert-meta">
+              <h4 data-i18n="certs.2.title">Public Speaking &amp; Executive Communication</h4>
+              <span class="cert-issuer" data-i18n="certs.2.issuer">Professional Certification • Stakeholder Alignment</span>
+            </div>
+          </button>
+
+          <!-- Certificate 3: Marketplace 1 -->
+          <button type="button" class="cert-card reveal reveal-delay-2" data-cert-src="./Sertifikat-Marketplace%201.jpg"
+            data-cert-title="Marketplace Marketing &amp; Store Operations I" data-cert-issuer="Sekolah Pintar">
+            <div class="cert-thumb">
+              <img src="./Sertifikat-Marketplace%201.jpg" alt="Marketplace Marketing 1 — Sekolah Pintar Certificate" loading="lazy" decoding="async">
+              <span class="cert-zoom-pill" data-i18n="certs.view">Inspect Certificate ↗</span>
+            </div>
+            <div class="cert-meta">
+              <h4 data-i18n="certs.3.title">Marketplace Marketing &amp; Store Operations I</h4>
+              <span class="cert-issuer" data-i18n="certs.3.issuer">Sekolah Pintar • E-Commerce Fundamentals</span>
+            </div>
+          </button>
+
+          <!-- Certificate 4: Marketplace 2 -->
+          <button type="button" class="cert-card reveal reveal-delay-3" data-cert-src="./Sertifikat-Marketplace-2.jpg"
+            data-cert-title="Marketplace Growth, Advertising &amp; Optimization II" data-cert-issuer="Sekolah Pintar">
+            <div class="cert-thumb">
+              <img src="./Sertifikat-Marketplace-2.jpg" alt="Marketplace Marketing 2 — Advanced E-Commerce Certificate" loading="lazy" decoding="async">
+              <span class="cert-zoom-pill" data-i18n="certs.view">Inspect Certificate ↗</span>
+            </div>
+            <div class="cert-meta">
+              <h4 data-i18n="certs.4.title">Marketplace Growth &amp; Conversion Optimization II</h4>
+              <span class="cert-issuer" data-i18n="certs.4.issuer">Sekolah Pintar • Advanced Marketplace Strategy</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         7. DIRECT CONTACT SECTION (#contact)
+         ============================================ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-grid">
+            <div class="contact-copy">
+              <div class="section-eyebrow">
+                <span class="dot"></span>
+                <span data-i18n="contact.eyebrow">CHAPTER 06 • DIRECT BUILDER ACCESS</span>
+              </div>
+              <h2 class="contact-title" data-i18n="contact.title">
+                Need a custom website, warehouse system, or operational tool built directly without agency markups? Let's talk.
+              </h2>
+              <p class="contact-desc" data-i18n="contact.desc">
+                Whether you run a distribution warehouse drowning in spreadsheets, a service business needing attendance and treatment tracking, or a local brand ready for a fast custom web presence — you'll speak directly with me, not a salesperson.
+              </p>
+
+              <div class="contact-trust-row">
+                <div class="contact-trust-item">
+                  <span class="trust-check" aria-hidden="true">✓</span>
+                  <span data-i18n="contact.trust1">Direct 1-on-1 with Kaffie</span>
+                </div>
+                <div class="contact-trust-item">
+                  <span class="trust-check" aria-hidden="true">✓</span>
+                  <span data-i18n="contact.trust2">Custom-Fit to Your Real Workflow</span>
+                </div>
+                <div class="contact-trust-item">
+                  <span class="trust-check" aria-hidden="true">✓</span>
+                  <span data-i18n="contact.trust3">Fair, Transparent Builder Pricing</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-actions-panel">
+              <!-- 1. WhatsApp Primary CTA -->
+              <a href="https://wa.me/6281952737194" target="_blank" rel="noopener noreferrer" class="contact-action-card contact-action-whatsapp">
+                <div class="contact-action-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  </svg>
+                </div>
+                <div class="contact-action-body">
+                  <span class="contact-action-label" data-i18n="contact.wa.label">Chat Directly on WhatsApp</span>
+                  <strong class="contact-action-value">0819-5273-7194</strong>
+                </div>
+                <span class="contact-action-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <!-- 2. Email CTA -->
+              <a href="mailto:kaffiieee@gmail.com" class="contact-action-card">
+                <div class="contact-action-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-action-body">
+                  <span class="contact-action-label" data-i18n="contact.email.label">Send an Email</span>
+                  <strong class="contact-action-value">kaffiieee@gmail.com</strong>
+                </div>
+                <span class="contact-action-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <!-- 3. Explore Live Web Demos -->
+              <a href="https://arbour-demo.kaaffiiee.workers.dev/" target="_blank" rel="noopener noreferrer" class="contact-action-card">
+                <div class="contact-action-icon">
+                  <img src="./assets/arbour-logo.png" alt="Arbour OS" width="24" height="24">
+                </div>
+                <div class="contact-action-body">
+                  <span class="contact-action-label" data-i18n="contact.demo.label">Explore Live Web Demos</span>
+                  <strong class="contact-action-value">arbour-demo.kaaffiiee.workers.dev</strong>
+                </div>
+                <span class="contact-action-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <!-- 4. GitHub -->
+              <a href="https://github.com/kaffiieee-cpu" target="_blank" rel="noopener noreferrer" class="contact-action-card">
+                <div class="contact-action-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="contact-action-body">
+                  <span class="contact-action-label" data-i18n="contact.github.label">GitHub Profile &amp; Repositories</span>
+                  <strong class="contact-action-value">github.com/kaffiieee-cpu</strong>
+                </div>
+                <span class="contact-action-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       EXECUTIVE FOOTER (#1E352F Deep Forest Emerald)
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo-lockup" aria-label="Ikhsanuddien Kaffie — Arbour OS">
+            <img src="./assets/arbour-logo.png" alt="Arbour OS Transparent Emblem" class="footer-arbour-logo" width="44" height="44" loading="lazy">
+            <div>
+              <span class="footer-brand-title">Ikhsanuddien Kaffie</span>
+              <span class="footer-brand-sub" data-i18n="footer.role">Independent System Builder • Founder of Arbour OS</span>
+            </div>
+          </a>
+          <p class="footer-tagline" data-i18n="footer.tagline">
+            From the warehouse floor to shipping custom business software. Built solo with Arbour — zero agency overhead, real operational impact.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <span class="footer-col-title" data-i18n="footer.col1">Chapters</span>
+            <a href="#about" data-i18n="nav.story">Story</a>
+            <a href="#arbour-story" data-i18n="nav.arbour">Arbour</a>
+            <a href="#projects" data-i18n="nav.systems">Systems</a>
+            <a href="#archive-showcase" data-i18n="nav.archive">Archive</a>
+            <a href="#journey" data-i18n="nav.journey">Journey</a>
+          </div>
+          <div class="footer-col">
+            <span class="footer-col-title" data-i18n="footer.col2">Direct Links</span>
+            <a href="https://arbour-demo.kaaffiiee.workers.dev/" target="_blank" rel="noopener noreferrer" data-i18n="footer.showcase">10-UMKM Live Showcase ↗</a>
+            <a href="https://wa.me/6281952737194" target="_blank" rel="noopener noreferrer">WhatsApp (0819-5273-7194)</a>
+            <a href="mailto:kaffiieee@gmail.com">kaffiieee@gmail.com</a>
+            <a href="https://github.com/kaffiieee-cpu" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright" data-i18n="footer.copyright">
+          © 2026 Ikhsanuddien Kaffie — Built Solo with Arbour
+        </p>
+        <a href="#hero" class="footer-backtop" id="back-to-top" data-i18n="footer.backToTop">
+          Back to top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       CERTIFICATE LIGHTBOX MODAL
+       ============================================ -->
+  <div class="lightbox" id="cert-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <div class="lightbox-header">
+        <div>
+          <h3 class="lightbox-title" id="lightbox-title">Certificate Preview</h3>
+          <span class="lightbox-issuer" id="lightbox-issuer"></span>
+        </div>
+        <div class="lightbox-controls">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="lightbox-open-raw" id="lightbox-open-raw" data-i18n="certs.openTab">Open Original ↗</a>
+          <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close certificate preview">✕</button>
+        </div>
+      </div>
+      <div class="lightbox-body">
+        <img src="./Sertifikat%20Calpis.jpg" alt="Certificate full preview" id="lightbox-img" class="lightbox-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
